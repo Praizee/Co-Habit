@@ -42,11 +42,11 @@ const Details = () => {
             >
                 {/* bg-[#f8f8fd] */}
 
-                <div className="laptop:flex hidden laptop:mt-">
+               <div className="laptop:flex w-full hidden">
                     <img src={Half01} className="" alt="" />
                     <img src={HouseBg01} className="" alt="" />
                     <img src={HouseBg02} className="" alt="" />
-                    {/* <img src={Half02} className="" alt="" /> */}
+                    <img src={Half02} className="" alt="" />
                 </div>
 
                 <div className="laptop:absolute w-auto mt-[5rem] laptop:-mt-[10.5rem] laptop:flex laptop:mx-[8rem] laptop:w-[85%] rounded-md bg-white p-2 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
